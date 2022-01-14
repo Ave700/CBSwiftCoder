@@ -15,7 +15,7 @@ let package = Package(
             targets: ["CouchbaseLiteSwiftCoder"]),
     ],
     dependencies: [
-        .package(name: "CouchbaseLiteSwift", url: "https://github.com/couchbase/couchbase-lite-ios.git", from: "2.8.0")
+        .package(name: "CouchbaseLiteSwift", url: "https://github.com/couchbase/couchbase-lite-swift-ee.git", from: "2.8.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
